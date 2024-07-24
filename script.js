@@ -6,7 +6,8 @@ let minhalistadeitens = []
 
 function addnewtask() {
     minhalistadeitens.push(input.value)
-    console.log(minhalistadeitens);
+   
+    input.value =  ''
     
     mostrartarefas()
 }
@@ -19,7 +20,8 @@ function mostrartarefas() {
 
     minhalistadeitens.forEach((tarefa) => {
 
-        novaLi = novaLi +    
+        novaLi = 
+            novaLi +    
         `            <li>
         <img src="" alt="">
         <p>${tarefa}</p>
