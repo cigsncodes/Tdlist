@@ -30,4 +30,4 @@ function mostrartarefas() {
 listacpleta.innerHTML = novaLi
 
 
-button.addEventListener("click", addnewtask)
+button.addEventListener( 'click', addnewtask)
