@@ -10,13 +10,13 @@ function addnewtask() {
     mostrartarefas()
 }
 
-function mostrartarefas(){
+function mostrartarefas() {
 
-    let novaLi = novaLi + ''
+    let novaLi = ''
 
     minhalistadeitens.forEach(tarefa => {
 
-        novaLi =    `            <li>
+        novaLi = novaLi +    `            <li>
         <img src="" alt="">
         <p>${tarefa}</p>
         <img src="" alt="">
