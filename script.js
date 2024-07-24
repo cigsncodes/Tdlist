@@ -7,8 +7,6 @@ let minhalistadeitens = []
 function addnewtask() {
     minhalistadeitens.push(input.value)
    
-    input.value =  ''
-    
     mostrartarefas()
 }
 
