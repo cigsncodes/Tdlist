@@ -1,4 +1,5 @@
 const button = document.querySelector('.addtask')
+const input = document.querySelector('.task')
 const listacpleta = document.querySelector(".listtask")
 
 let minhalistadeitens = []
