@@ -1,5 +1,6 @@
 const button = document.querySelector(".addtask")
 const button = document.querySelector(".task")
+const listacpleta = document.querySelector(".listtask")
 let minhalistadeitens = []
 function addnewtask() {
     minhalistadeitens.push(input.value);
@@ -23,4 +24,8 @@ function mostrartarefas(){
 
     
 }
+
+listacpleta.innerHTML = novaLi
+
+
 button.addEventListener("click", addnewtask)
