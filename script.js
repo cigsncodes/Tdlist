@@ -6,6 +6,7 @@ let minhalistadeitens = []
 
 function addnewtask() {
     minhalistadeitens.push(input.value)
+    console.log(minhalistadeitens);
     
     mostrartarefas()
 }
