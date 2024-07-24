@@ -16,7 +16,8 @@ function mostrartarefas() {
 
     minhalistadeitens.forEach(tarefa => {
 
-        novaLi = novaLi +    `            <li>
+        novaLi = novaLi +    
+        `            <li>
         <img src="" alt="">
         <p>${tarefa}</p>
         <img src="" alt="">
