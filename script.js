@@ -9,7 +9,7 @@ function addnewtask() {
 
 function mostrartarefas(){
 
-    let novaLi = ''
+    let novaLi = novaLi + ''
 
     minhalistadeitens.forEach(tarefa => {
 
