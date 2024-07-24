@@ -13,18 +13,14 @@ function mostrartarefas(){
 
     minhalistadeitens.forEach(tarefa => {
 
-        novaLi = ´            <li>
+        novaLi =    `            <li>
         <img src="" alt="">
         <p>fazer compras</p>
         <img src="" alt="">
-    </li> ´
+    </li> `
         
     });
 
-    <li>
-    <img src="" alt="">
-    <p>fazer compras</p>
-    <img src="" alt="">
-</li>
+    
 }
 button.addEventListener("click", addnewtask)
