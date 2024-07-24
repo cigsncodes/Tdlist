@@ -5,7 +5,7 @@ const listacpleta = document.querySelector(".listtask")
 let minhalistadeitens = []
 
 function addnewtask() {
-    minhalistadeitens.push(input.value);
+    minhalistadeitens.push(input.value)
     
     mostrartarefas()
 }
@@ -22,7 +22,7 @@ function mostrartarefas(){
         <img src="" alt="">
     </li> `
         
-    });
+    })
 
     
 }
