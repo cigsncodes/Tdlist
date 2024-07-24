@@ -15,7 +15,7 @@ function mostrartarefas(){
 
         novaLi =    `            <li>
         <img src="" alt="">
-        <p>fazer compras</p>
+        <p>${tarefa}</p>
         <img src="" alt="">
     </li> `
         
