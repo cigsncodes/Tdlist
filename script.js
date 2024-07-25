@@ -10,3 +10,5 @@ function addnewtask() {
    
     mostrartarefas()
 }
+
+button.addEventlistener('click', addnewtask)
